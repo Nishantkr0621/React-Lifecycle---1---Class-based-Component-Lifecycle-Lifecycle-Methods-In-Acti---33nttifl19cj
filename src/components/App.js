@@ -16,6 +16,7 @@ class App extends React.Component {
   }
 
   render() {
+     console.log("renderd");
     return (
       <div id="main">
           <div id="count">{this.state.count}</div>
