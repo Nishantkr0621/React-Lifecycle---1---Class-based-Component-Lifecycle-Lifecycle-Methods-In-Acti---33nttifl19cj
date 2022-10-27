@@ -14,15 +14,14 @@ import React from 'react'
      this.handleClick = this.handleClick.bind(this); 
   
    } 
-     componentDidMount(){ 
-  
-     console.log("mounted") 
-   } 
+    
   
   
     
    render() { 
-     console.log('rendered') 
+       console.log('rendered'); 
+     console.log("mounted");
+     
      return ( 
        <div id="main"> 
            <div id="count">{this.state.count}</div> 
